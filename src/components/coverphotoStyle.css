@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
 }
 .coverphoto-container img {
   max-width: 100%;
@@ -31,7 +31,6 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    border: 2px solid yellowgreen;
     display: flex;
     justify-content: center;
   }
