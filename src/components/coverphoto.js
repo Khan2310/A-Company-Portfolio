@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./coverphotoStyle.css";
+import "./style.css";
 import coverphoto from "./companyphoto.jpg";
 
 export default class Coverphoto extends Component {

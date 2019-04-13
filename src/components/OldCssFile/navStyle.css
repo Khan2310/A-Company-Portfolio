@@ -1,5 +1,6 @@
 .nav-container {
   /* parent container */
+  font-family: "Comfortaa", cursive;
   top: 0;
   position: fixed;
   width: 100%;
