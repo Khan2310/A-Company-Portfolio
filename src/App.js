@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navebar from "./components/navbar.js";
 import Coverphoto from "./components/coverphoto.js";
+import BodyCompo from "./components/bodyCompo.js";
 
 class App extends Component {
   render() {
@@ -13,6 +14,10 @@ class App extends Component {
           <Coverphoto />
         </div>
         <div>
+          <BodyCompo />
+        </div>
+        <div className="about-info">
+          <h2>About</h2>
           <p>
             A company may create a portfolio to showcase the capabilities and
             strengths of the business's services. The portfolio is a collection

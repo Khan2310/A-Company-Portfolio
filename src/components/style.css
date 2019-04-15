@@ -93,7 +93,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  font-family: "Comfortaa", cursive,sans-serif;
+  font-family: "Comfortaa", cursive, sans-serif;
   /* border: 2px solid yellowgreen; */
 }
 
@@ -117,10 +117,6 @@
 @media screen and (max-width: 550px) {
   .coverphoto-container img {
     margin-top: 6em;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-style: none;
     position: relative;
   }
 }
@@ -146,4 +142,44 @@
     text-shadow: 1px 1px 6px black;
     font-size: 2em;
   }
+}
+
+.projects-card {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.body-container {
+  border: solid 3px red;
+  margin: 0% 10.5%;
+}
+
+.head-title {
+  margin-top: 5%;
+  border-bottom: solid 1px #ccc;
+  width: auto;
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 0.2em;
+}
+
+.Projects-card-container {
+  border: solid blue;
+  width: 22rem;
+  height: 11rem;
+  overflow: hidden;
+}
+
+.Projects-card-container .project-title {
+  position: absolute;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  padding: 3px;
+}
+
+.Projects-card-container img {
+  width: 100%;
+  height: auto;
 }
