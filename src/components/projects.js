@@ -5,6 +5,10 @@ import ProjectOneImage from "./image/project-1.jpeg";
 import ProjectTwoImage from "./image/project-2.jpg";
 import ProjectThreeImage from "./image/project-3.jpg";
 import ProjectFourImage from "./image/project-4.jpg";
+import ProjectFiveImage from "./image/project-5.jpg";
+import ProjectSixImage from "./image/project-6.jpg";
+import ProjectSevenImage from "./image/project-7.jpg";
+import ProjectEightImage from "./image/project-8.jpg";
 import "./style.css";
 
 export default class Projects extends Component {
@@ -15,37 +19,37 @@ export default class Projects extends Component {
         <div className="projects-card">
           <ProjectCard
             projectImage={ProjectOneImage}
-            projectTitle="Project One Image"
+            projectTitle="Project One"
           />
           <ProjectCard
             projectImage={ProjectTwoImage}
-            projectTitle="Project two Image"
+            projectTitle="Project two"
           />
           <ProjectCard
             projectImage={ProjectThreeImage}
-            projectTitle="Project three Image"
+            projectTitle="Project three"
           />
           <ProjectCard
             projectImage={ProjectFourImage}
-            projectTitle="Project three Image"
+            projectTitle="Project four"
           />
         </div>
         <div className="projects-card">
           <ProjectCard
-            projectImage={ProjectOneImage}
-            projectTitle="Project One Image"
+            projectImage={ProjectFiveImage}
+            projectTitle="Project five"
           />
           <ProjectCard
-            projectImage={ProjectTwoImage}
-            projectTitle="Project two Image"
+            projectImage={ProjectSixImage}
+            projectTitle="Project six"
           />
           <ProjectCard
-            projectImage={ProjectThreeImage}
-            projectTitle="Project three Image"
+            projectImage={ProjectSevenImage}
+            projectTitle="Project seven"
           />
           <ProjectCard
-            projectImage={ProjectFourImage}
-            projectTitle="Project three Image"
+            projectImage={ProjectEightImage}
+            projectTitle="Project eight"
           />
         </div>
       </div>

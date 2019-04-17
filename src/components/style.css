@@ -154,7 +154,6 @@
 }
 
 .body-container {
-  border: solid 3px red;
   position: relative;
   margin: 0% 10.5%;
 }
@@ -174,7 +173,6 @@
 }
 
 .Projects-card-container {
-  border: solid blue;
   width: 23%;
   height: auto;
   overflow: hidden;
