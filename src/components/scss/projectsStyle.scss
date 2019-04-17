@@ -1,6 +1,9 @@
 .projects-card {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media screen and (max-width: 800px) {
+    margin: 0%;
+  }
 }

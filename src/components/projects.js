@@ -30,6 +30,24 @@ export default class Projects extends Component {
             projectTitle="Project three Image"
           />
         </div>
+        <div className="projects-card">
+          <ProjectCard
+            projectImage={ProjectOneImage}
+            projectTitle="Project One Image"
+          />
+          <ProjectCard
+            projectImage={ProjectTwoImage}
+            projectTitle="Project two Image"
+          />
+          <ProjectCard
+            projectImage={ProjectThreeImage}
+            projectTitle="Project three Image"
+          />
+          <ProjectCard
+            projectImage={ProjectFourImage}
+            projectTitle="Project three Image"
+          />
+        </div>
       </div>
     );
   }

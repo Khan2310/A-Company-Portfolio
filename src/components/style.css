@@ -99,9 +99,6 @@
 
 @media screen and (min-width: 1500px) {
   .coverphoto-container {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     display: flex;
     justify-content: center;
   }
@@ -139,21 +136,33 @@
 @media screen and (max-width: 550px) {
   .coverphoto-container .cover-image-title h1 {
     margin-top: 3em;
-    text-shadow: 1px 1px 6px black;
     font-size: 2em;
   }
 }
 
 .projects-card {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 800px) {
+  .projects-card {
+    margin: 0%;
+  }
+}
+
 .body-container {
   border: solid 3px red;
+  position: relative;
   margin: 0% 10.5%;
+}
+
+@media screen and (max-width: 1540px) {
+  .body-container {
+    margin: 0%;
+  }
 }
 
 .head-title {
@@ -166,9 +175,22 @@
 
 .Projects-card-container {
   border: solid blue;
-  width: 22rem;
-  height: 11rem;
+  width: 23%;
+  height: auto;
   overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .Projects-card-container {
+    width: 48%;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Projects-card-container {
+    width: 100%;
+  }
 }
 
 .Projects-card-container .project-title {
@@ -176,7 +198,7 @@
   background-color: black;
   opacity: 0.7;
   color: white;
-  padding: 3px;
+  padding: 0.5rem;
 }
 
 .Projects-card-container img {
