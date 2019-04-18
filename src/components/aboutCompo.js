@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectCard from "./projectCard.js";
+import AboutCard from "./aboutCard.js";
 import Title from "./title.js";
 import PersonEmpty from "./image/personEmpty.png";
 import "./style.css";
@@ -19,6 +19,32 @@ export default class AboutCompo extends Component {
           also used as a business strategy to show the growth of the company to
           attract potential investors and shareholders.
         </p>
+        <div className="projects-card">
+          <AboutCard
+            profileImage={PersonEmpty}
+            nameTitle="Person Name"
+            positionTitle="Position"
+            shortDesc="A person is a being that has certain capacities or attributes such as reason..."
+          />
+          <AboutCard
+            profileImage={PersonEmpty}
+            nameTitle="Person Name"
+            positionTitle="Position"
+            shortDesc="A person is a being that has certain capacities or attributes such as reason..."
+          />
+          <AboutCard
+            profileImage={PersonEmpty}
+            nameTitle="Person Name"
+            positionTitle="Position"
+            shortDesc="A person is a being that has certain capacities or attributes such as reason..."
+          />
+          <AboutCard
+            profileImage={PersonEmpty}
+            nameTitle="Person Name"
+            positionTitle="Position"
+            shortDesc="A person is a being that has certain capacities or attributes such as reason..."
+          />
+        </div>
       </div>
     );
   }

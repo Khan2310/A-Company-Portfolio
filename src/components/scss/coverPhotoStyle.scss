@@ -8,13 +8,23 @@
     display: flex;
     justify-content: center;
   }
-  img {
+  .cover-image {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
     border-style: none;
     @media screen and (max-width: 550px) {
       margin-top: 6em;
+      position: relative;
+    }
+  }
+  .map-image {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    vertical-align: middle;
+    border-style: none;
+    @media screen and (max-width: 550px) {
       position: relative;
     }
   }

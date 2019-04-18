@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navebar from "./components/navbar.js";
 import Coverphoto from "./components/coverphoto.js";
 import BodyCompo from "./components/bodyCompo.js";
+import Coverphotoimage from "./components/image/companyphoto.jpg";
 
 class App extends Component {
   render() {
@@ -11,7 +12,11 @@ class App extends Component {
           <Navebar />
         </div>
         <div>
-          <Coverphoto />
+          <Coverphoto
+            coverimage={Coverphotoimage}
+            coverTitle="Company Name"
+            photoClassName="cover-image"
+          />
         </div>
         <div>
           <BodyCompo />

@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import "./style.css";
-import coverphoto from "./companyphoto.jpg";
 
 export default class Coverphoto extends Component {
   render() {
     return (
       <div className="coverphoto-container">
-        <img src={coverphoto} alt="companyphoto" />
+        <img
+          className={this.props.photoClassName}
+          src={this.props.coverimage}
+          alt="companyphoto"
+        />
         <div className="cover-image-title">
-          <h1>Company Name</h1>
+          <h1>{this.props.coverTitle}</h1>
         </div>
       </div>
     );
