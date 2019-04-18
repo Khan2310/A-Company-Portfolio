@@ -6,7 +6,7 @@ export default class Title extends Component {
     return (
       <div className="title">
         <div className="head-title">
-          <h3>Projects</h3>
+          <h3>{this.props.projectHeadTitle}</h3>
         </div>
       </div>
     );

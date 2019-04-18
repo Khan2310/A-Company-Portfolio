@@ -15,7 +15,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="Projects-container">
-        <Title />
+        <Title projectHeadTitle="Projects" />
         <div className="projects-card">
           <ProjectCard
             projectImage={ProjectOneImage}
