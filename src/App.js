@@ -16,6 +16,7 @@ class App extends Component {
             coverimage={Coverphotoimage}
             coverTitle="Company Name"
             photoClassName="cover-image"
+            titleClassName="cover-image-title"
           />
         </div>
         <div>

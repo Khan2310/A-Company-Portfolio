@@ -10,7 +10,7 @@ export default class Coverphoto extends Component {
           src={this.props.coverimage}
           alt="companyphoto"
         />
-        <div className="cover-image-title">
+        <div className={this.props.titleClassName}>
           <h1>{this.props.coverTitle}</h1>
         </div>
       </div>
