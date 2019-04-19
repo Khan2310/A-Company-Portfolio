@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import AboutCard from "./aboutCard.js";
 import Title from "./title.js";
 import PersonEmpty from "./image/personEmpty.png";
+import Person1 from "./image/pro-manPhoto01.jpg";
+import Person2 from "./image/pro-manPhoto02.jpg";
+import Person3 from "./image/pro-manPhoto03.jpg";
+import Person4 from "./image/pro-manPhoto04.jpg";
 import "./style.css";
 
 export default class AboutCompo extends Component {
@@ -21,25 +25,25 @@ export default class AboutCompo extends Component {
         </p>
         <div className="projects-card">
           <AboutCard
-            profileImage={PersonEmpty}
+            profileImage={Person1}
             nameTitle="Person Name"
             positionTitle="Position"
             shortDesc="A person is a being that has certain capacities or attributes such as reason..."
           />
           <AboutCard
-            profileImage={PersonEmpty}
+            profileImage={Person2}
             nameTitle="Person Name"
             positionTitle="Position"
             shortDesc="A person is a being that has certain capacities or attributes such as reason..."
           />
           <AboutCard
-            profileImage={PersonEmpty}
+            profileImage={Person3}
             nameTitle="Person Name"
             positionTitle="Position"
             shortDesc="A person is a being that has certain capacities or attributes such as reason..."
           />
           <AboutCard
-            profileImage={PersonEmpty}
+            profileImage={Person4}
             nameTitle="Person Name"
             positionTitle="Position"
             shortDesc="A person is a being that has certain capacities or attributes such as reason..."
