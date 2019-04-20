@@ -10,8 +10,12 @@ export default class Navbar extends Component {
         </div>
         <div className="nav-options">
           <ul>
-            <li>Projects</li>
-            <li>About</li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
             <li>Contact</li>
           </ul>
         </div>

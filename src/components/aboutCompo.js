@@ -12,7 +12,7 @@ export default class AboutCompo extends Component {
   render() {
     return (
       <div className="Projects-container">
-        <Title projectHeadTitle="About" />
+        <Title projectHeadTitle="About" titleID="about" />
         <p>
           A company may create a portfolio to showcase the capabilities and
           strengths of the business's services. The portfolio is a collection of

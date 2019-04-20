@@ -75,6 +75,11 @@
   padding: 0.2em 1em;
 }
 
+.nav-container .nav-options ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-container .nav-options ul li:hover {
   cursor: pointer;
   background-color: #bdc3c7;
