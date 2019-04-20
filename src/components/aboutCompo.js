@@ -6,7 +6,7 @@ import Person1 from "./image/pro-manPhoto01.jpg";
 import Person2 from "./image/pro-manPhoto02.jpg";
 import Person3 from "./image/pro-manPhoto03.jpg";
 import Person4 from "./image/pro-manPhoto04.jpg";
-import "./style.css";
+//import "./style.css";
 
 export default class AboutCompo extends Component {
   render() {

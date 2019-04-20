@@ -9,7 +9,7 @@ import ProjectFiveImage from "./image/project-5.jpg";
 import ProjectSixImage from "./image/project-6.jpg";
 import ProjectSevenImage from "./image/project-7.jpg";
 import ProjectEightImage from "./image/project-8.jpg";
-import "./style.css";
+//import "./style.css";
 
 export default class Projects extends Component {
   render() {

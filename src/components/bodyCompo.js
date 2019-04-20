@@ -3,7 +3,7 @@ import Projects from "./projects.js";
 import AboutCompo from "./aboutCompo.js";
 import Coverphoto from "./coverphoto.js";
 import Mapimage from "./image/map-image1.jpg";
-import "./style.css";
+//import "./style.css";
 
 export default class BodyCompo extends Component {
   render() {
