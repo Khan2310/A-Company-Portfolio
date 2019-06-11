@@ -14,8 +14,8 @@ import ProjectEightImage from "./image/project-8.jpg";
 export default class Projects extends Component {
   render() {
     return (
-      <div className="Projects-container">
-        <Title projectHeadTitle="Projects" titleID="projects" />
+      <div className="Projects-container" id="projects">
+        <Title projectHeadTitle="Projects" />
         <div className="projects-card">
           <ProjectCard
             projectImage={ProjectOneImage}

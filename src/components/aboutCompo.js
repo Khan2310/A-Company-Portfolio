@@ -11,8 +11,8 @@ import Person4 from "./image/pro-manPhoto04.jpg";
 export default class AboutCompo extends Component {
   render() {
     return (
-      <div className="Projects-container">
-        <Title projectHeadTitle="About" titleID="about" />
+      <div className="Projects-container" id="about">
+        <Title projectHeadTitle="About" />
         <p>
           A company may create a portfolio to showcase the capabilities and
           strengths of the business's services. The portfolio is a collection of

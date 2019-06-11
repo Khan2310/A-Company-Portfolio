@@ -6,7 +6,9 @@ export default class Navbar extends Component {
     return (
       <div className="nav-container">
         <div className="titele-logo">
-          <h3>Company name</h3>
+          <h3>
+            <a href="#home">Company name</a>
+          </h3>
         </div>
         <div className="nav-options">
           <ul>
@@ -16,7 +18,9 @@ export default class Navbar extends Component {
             <li>
               <a href="#about">About</a>
             </li>
-            <li>Contact</li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>

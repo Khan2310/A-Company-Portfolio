@@ -17,7 +17,7 @@ export default class Footer extends Component {
             </li>
           </ul>
         </div>
-        <div className="footer-contacts">
+        <div className="footer-contacts" id="contact">
           <ul>
             <li>
               <h4>Contacts</h4>

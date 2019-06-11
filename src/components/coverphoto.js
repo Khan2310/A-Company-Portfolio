@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class Coverphoto extends Component {
   render() {
     return (
-      <div className="coverphoto-container">
+      <div className="coverphoto-container" id="home">
         <img
           className={this.props.photoClassName}
           src={this.props.coverimage}
